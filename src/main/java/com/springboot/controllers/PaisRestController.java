@@ -12,7 +12,7 @@ import com.springboot.models.entity.Pais;
 import com.springboot.services.IPaisService;
 
 
-@CrossOrigin(origins = {"http://localhost:4200"})
+@CrossOrigin(origins = {"https://devapp-frontend-angular-cloud.firebaseapp.com", "http://localhost:4200"})
 @RestController
 @RequestMapping("/api")
 public class PaisRestController {
